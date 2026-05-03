@@ -1,8 +1,8 @@
 def pshs_grade_equivalent(percent):
     if percent >= 96:
-         return 1.00, "Excellent"
+         return 1.00, "EXCELLENT"
     elif percent >= 90:
-         return 1.25, "Very Good"
+         return 1.25, "VERY GOOD"
     elif percent >= 84: 
          return 1.50, "VERY GOOD"
     elif percent >= 78:
