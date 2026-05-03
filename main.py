@@ -30,4 +30,6 @@ tentative_q4_grade = float(input("Enter Tentative Quarter 4 Grade %: "))
 
 # 2) Calculate
 
+# Q1
 quarter_1 = tentative_q1_grade
+
