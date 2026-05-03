@@ -52,4 +52,3 @@ print("Q2 =", round(quarter_2, 2))
 print("Q3 =", round(quarter_3, 2))
 print("Final Grade =", round(quarter_4, 2))
 print("Equivalent =", e, "-", d)
-
