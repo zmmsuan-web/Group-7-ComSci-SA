@@ -33,3 +33,23 @@ tentative_q4_grade = float(input("Enter Tentative Quarter 4 Grade %: "))
 # Q1
 quarter_1 = tentative_q1_grade
 
+# Q2
+quarter_2 = (quarter_1 + 2 * tentative_q2_grade) / 3
+
+# Q3
+quarter_3 = (quarter_2 + 2 * tentative_q3_grade) / 3
+
+# Q4 (Final)
+quarter_4 = (quarter_3 + 2 * tentative_q4_grade) / 3
+
+# Get equivalent
+e, d = pshs_grade_equivalent(quarter_4)
+
+# Output
+print("\nResults:")
+print("Q1 =", round(quarter_1, 2))
+print("Q2 =", round(quarter_2, 2))
+print("Q3 =", round(quarter_3, 2))
+print("Final Grade =", round(quarter_4, 2))
+print("Equivalent =", e, "-", d)
+
